@@ -1,3 +1,4 @@
+/* ----------Basic and important css-------- */
 body {
     margin: 0;
     padding: 0;
@@ -52,23 +53,17 @@ p {
     border: none;
     cursor: pointer;
     transition: .5s;
-    border: 1px solid #FF0063;
     font-weight: 700;
     border-radius: 50px;
 }
 
-.btn:hover {
-    background-color: transparent;
-    color: #FF0063;
 
-}
-
+/* -------Start Hero Section--------------------- */
 .hero-area {
     background-image: url(img/hero-img-2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
     position: relative;
     z-index: 1;
 }
@@ -87,7 +82,7 @@ p {
 
 .hero-item {
     text-align: center;
-    padding: 0 20%;
+    padding: 30px 20%;
 }
 
 .hero-item h1,
@@ -106,6 +101,9 @@ p {
     line-height: 27px;
 }
 
+/* ---------End of the Hero Section----------- */
+
+/* ------------Start Donate Today Section---------- */
 .donate-today-area {
     background-color: #edf5f6d2;
 }
@@ -161,6 +159,9 @@ input[type="number"]::placeholder {
     text-align: center;
 }
 
+/* ----------End of the Donate Today Section------------ */
+
+/* -------------Start Donate Plan Section------------------- */
 
 .donate-plan-box-items {
     padding: 0 14%;
@@ -172,12 +173,6 @@ input[type="number"]::placeholder {
     margin: 10px 20px;
     transition: .6s;
     border-bottom: 5px solid #FF0063;
-    transform: scale(1);
-    transition: .5s;
-}
-
-.donate-plan-single-box:hover {
-    transform: scale(1.1);
 }
 
 .box-color-bg-1 {
@@ -202,6 +197,9 @@ input[type="number"]::placeholder {
     color: #4e4e4e;
 }
 
+/* -------------End of the Donate Plan Section------------------- */
+
+/* -----------------Start Help Section------------------------- */
 .help-area {
     background-image: url(img/help-bg.jpg);
     background-size: cover;
@@ -235,14 +233,9 @@ input[type="number"]::placeholder {
     padding-bottom: 40px;
 }
 
+/* -----------------End of the Help Section------------------------- */
 
-
-
-
-
-
-
-
+/* --------------------Start Updates Section----------------------- */
 .updates-area {
     background-color: #edf5f6d2;
 }
@@ -273,10 +266,14 @@ input[type="number"]::placeholder {
     cursor: pointer;
 }
 
+/* --------------------End of the Updates Section----------------------- */
+
+/* ----------------------Start Footer Section------------------------------ */
 .footer-area {
-    padding: 50px 20px;
+    padding: 40px 20px;
     text-align: center;
-    background-color: #1E1E1E;
+    background-color: #252526;
+    border-top: 5px solid orange;
 }
 
 .footer-area h1 {
@@ -287,3 +284,5 @@ input[type="number"]::placeholder {
 .footer-area>p {
     color: #fff;
 }
+
+/* -------------------------End of the Footer Section-------------------------- */
