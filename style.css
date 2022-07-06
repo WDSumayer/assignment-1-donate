@@ -1,0 +1,289 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.sec-width {
+    width: 100%;
+}
+
+.sec-padding {
+    padding: 120px 0;
+}
+
+.sec-heading h2 {
+    font-size: 31px;
+    text-align: center;
+}
+
+.sec-heading>p {
+    font-size: 15px;
+    line-height: 23px;
+    padding: 27px 24%;
+    text-align: center;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.d-flexible {
+    display: flex;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #FF0063;
+    font-size: 18px;
+    line-height: 30px;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    border: 1px solid #FF0063;
+    font-weight: 700;
+    border-radius: 50px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: #FF0063;
+
+}
+
+.hero-area {
+    background-image: url(img/hero-img-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    z-index: 1;
+}
+
+.hero-area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #000;
+    opacity: .7;
+    z-index: -1;
+}
+
+.hero-item {
+    text-align: center;
+    padding: 0 20%;
+}
+
+.hero-item h1,
+.hero-item p {
+    color: #fff;
+}
+
+.hero-item h1 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.hero-item p {
+    padding: 25px 95px 40px 95px;
+    font-size: 15px;
+    line-height: 27px;
+}
+
+.donate-today-area {
+    background-color: #edf5f6d2;
+}
+
+.donate-today-items {
+    margin: 0 auto;
+    width: 54%;
+    text-align: center;
+}
+
+.single-donate-box {
+    height: 125px;
+    width: 125px;
+    background-color: #fff;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.different {
+    background-color: #ffe6ef;
+    border: 2px solid #FF0063;
+}
+
+.single-donate-box h3 {
+    font-size: 23px;
+    font-weight: 700;
+    padding-top: 42%;
+    color: #4e4e4e;
+}
+
+.single-donate-box.ml-0 {
+    margin-left: 0;
+}
+
+.single-donate-box.mr-0 {
+    margin-right: 0;
+}
+
+input[type="number"] {
+    outline: none;
+    text-align: center;
+    background: transparent;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #8f8f8f;
+    width: 100%;
+    padding: 3px;
+    margin: 30px 0;
+}
+
+input[type="number"]::placeholder {
+    text-align: center;
+}
+
+
+.donate-plan-box-items {
+    padding: 0 14%;
+}
+
+.donate-plan-single-box {
+    width: 33.33%;
+    padding: 40px 20px;
+    margin: 10px 20px;
+    transition: .6s;
+    border-bottom: 5px solid #FF0063;
+    transform: scale(1);
+    transition: .5s;
+}
+
+.donate-plan-single-box:hover {
+    transform: scale(1.1);
+}
+
+.box-color-bg-1 {
+    background-color: #EDF5F6;
+}
+
+.box-color-bg-2 {
+    background-color: #FFEEEE;
+}
+
+.box-color-bg-3 {
+    background-color: #FFF4D6;
+}
+
+.donate-plan-single-box img,
+.donate-plan-single-box h3 {
+    padding-bottom: 30px;
+}
+
+.donate-plan-single-box>p {
+    font-size: 15px;
+    color: #4e4e4e;
+}
+
+.help-area {
+    background-image: url(img/help-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    padding: 80px 100px;
+}
+
+.help-area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #21a1f198;
+    opacity: .5;
+    z-index: -1;
+}
+
+.help-area-content {
+    text-align: center;
+}
+
+.help-area-content h1 {
+    color: #fff;
+    font-weight: 800;
+    font-size: 55px;
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+.updates-area {
+    background-color: #edf5f6d2;
+}
+
+.email-box {
+    width: 35%;
+    background-color: rgb(255, 244, 214);
+    padding: 79px 118px;
+    margin: 0px auto;
+}
+
+.email-box input[type="email"] {
+    width: 68%;
+    padding: 15px 2%;
+    outline: none;
+    border: none;
+    font-size: 15px;
+}
+
+.email-box button[type="submit"] {
+    width: 27%;
+    padding: 15px 0;
+    border: none;
+    margin-left: -5px;
+    background-color: #FF0063;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.footer-area {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1E1E1E;
+}
+
+.footer-area h1 {
+    color: #FF0063;
+    font-weight: 800;
+}
+
+.footer-area>p {
+    color: #fff;
+}
